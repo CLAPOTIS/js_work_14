@@ -1,0 +1,106 @@
+html,body{
+	padding:0;
+	margin:0;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:5px;
+}
+.music_list{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:315px;
+	height:220px;
+}
+.row{
+	position:relative;
+	width:315px;
+	height:30px;
+	line-height:30px;
+	background-color:#F5FFFA;
+	border-bottom:1px solid #fff;
+}
+.row:nth-child(even){
+	background-color:#fff;
+}
+.row_selected{
+	background-color:#f2f2f2 !important;
+}
+.operate{
+	position:relative;
+	width:315px;
+	height:35px;
+	line-height:35px;
+	background-color:#fff;
+	border-top:1px solid #eee;
+}
+.item,.check_all{
+	position:absolute;
+	top:50%;
+	left:20px;
+	transform:translateY(-70%);
+}
+.song,.select_all{
+	position:absolute;
+	top:50%;
+	left:45px;
+	transform:translateY(-50%);
+}
+.singer{
+	position:absolute;
+	top:50%;
+	left:210px;
+	transform:translateY(-50%);
+}
+button{
+	width:65px;
+	height:25px;
+	background-color:#fff;
+	border-radius:3px;
+	border:1px solid #eee;
+}
+.collect{
+	position:absolute;
+	top:50%;
+	left:90px;
+	transform:translateY(-50%);
+	padding-left:30px;
+	background:url(../images/collect_1.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
+.collect_add{
+	background:url(../images/collect_2.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
+.add{
+	position:absolute;
+	top:50%;
+	left:165px;
+	transform:translateY(-50%);
+	padding-left:30px;
+	background:url(../images/add_1.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
+.add_add{
+	background:url(../images/add_2.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
+.amputate{
+	position:absolute;
+	top:50%;
+	left:240px;
+	transform:translateY(-50%);
+	padding-left:30px;
+	background:url(../images/delete_1.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
+.amputate_add{
+	background:url(../images/delete_2.png) no-repeat;
+	background-size:15px 15px;
+	background-position:10px 5px;
+}
